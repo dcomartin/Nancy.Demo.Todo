@@ -1,0 +1,7 @@
+﻿<ul style="list-style: none">
+    @Each
+    <li><label><input type="checkbox"/>@Current.Title</label></li>
+    @EndEach
+
+    <li><a href="/todolists/@Model.TodoListId/todos/add">Добавить</a></li>
+</ul>

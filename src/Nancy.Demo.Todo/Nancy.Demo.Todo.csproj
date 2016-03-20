@@ -76,16 +76,21 @@
     <Content Include="Content\scripts\highlight.min.js" />
     <Content Include="Content\scripts\jquery.min.js" />
     <Content Include="icon.png" />
+    <Content Include="Views\TodoList\create.html" />
     <Content Include="Views\index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\layout.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Views\list.html" />
+    <Content Include="Views\Todo\create.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Models\Todo.cs" />
+    <Compile Include="Models\TodoList.cs" />
     <Compile Include="Modules\IndexModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

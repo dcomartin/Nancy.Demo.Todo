@@ -1,0 +1,12 @@
+﻿@Master['../layout']
+@Section['Content']
+<form action="/todolists/@Model/todos/add" method="POST">
+    <input type="text" name="Title"/>
+    <br />
+    <input type="date" name="Deadline"/>
+    <br />
+    <input type="text" name="TodoListId" value="@Model"/>
+    <br/>
+    <input type="submit" value="Create" class="btn btn-primary"/>
+</form>
+@EndSection
